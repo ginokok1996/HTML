@@ -1,39 +1,48 @@
+body {
+  margin-left: 50px;
+  margin-right: 300px;
+}
+
 nav {
   background-color: black;
   padding: 10px;
 }
 
-a {
+nav a {
   color: white;
+  font-weight: bold;
   padding-left: 5px;
   padding-right: 5px;
-  border-right: 1px solid white;
-}
-
-table,
-td {
-  border: 1px solid black;
-  text-align: center;
-  border-collapse: collapse;
-  padding: 10px;
+  border-right: 2px solid white;
 }
 
 table {
-  width: 50%;
+  border: 1px solid black;
+  text-align: center;
+  border-collapse: collapse;
+  width: 49%;
+  margin-top: 30px;
+}
+
+td {
+  padding: 15px;
+  border: 1px solid black;
+}
+
+article {
+  float: left;
+  width: 49%;
+  margin-right: 2%;
+  margin-top: 30px;
 }
 
 .img {
   width: 100%;
 }
 
-.verdeeld {
-  display: flex;
-}
-.verdeeld .links {
-  flex: 1;
-}
-.verdeeld .rechts {
-  flex: 1;
+div.wrapper {
+  width: 1000px;
+  margin: auto;
 }
 
 #groen {

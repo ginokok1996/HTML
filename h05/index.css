@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+div.wrapper,
+footer {
+  width: 1000px;
+  margin: auto;
+  background-color: #fcebeb;
+  padding: 20px;
+}
+
+body {
+  font-family: Arial;
+  line-height: 20px;
+}
+
+nav {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+nav a {
+  margin-right: 20px;
+}
+
+section.appel,
+section.drieplaatjes {
+  width: 50%;
+  float: left;
+}
+
+section.drieplaatjes {
+  text-align: right;
+}
+
+img.appel {
+  width: 495px;
+}
+
+img.drieplaatjes {
+  width: 453px;
+  margin-bottom: 10px;
+}
+
+article {
+  display: inline-block;
+  width: 33%;
+  padding-right: 10px;
+  vertical-align: top;
+}
+
+article.nopadding {
+  padding-right: 0px;
+}
+
+img.article {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 292px;
+}
+
+footer {
+  background-color: grey;
+  color: white;
+}
+
+footer a {
+  color: white;
+}
