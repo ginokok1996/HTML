@@ -3,7 +3,6 @@
 }
 
 body {
-
   font-family: "Baloo Thambi 2", cursive;
   margin: 0px;
   padding: 0px;
@@ -62,8 +61,8 @@ img {
   width: 320px;
 }
 
-#wrapper{
-    background-color: rgb(250, 241, 234);
+#wrapper {
+  background-color: rgb(250, 241, 234);
 }
 
 @media all and (min-width: 780px) {
@@ -102,8 +101,9 @@ img {
     margin-right: 0px;
   }
   @media all and (min-width: 1115px) {
-    #wrapper{
-        width: 1115px;
-        margin: auto;
+    #wrapper {
+      width: 1115px;
+      margin: auto;
     }
+  }
 }
