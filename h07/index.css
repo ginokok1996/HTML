@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+
+  font-family: "Baloo Thambi 2", cursive;
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  background-color: rgb(193, 240, 223);
+  text-align: center;
+}
+
+ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+li {
+  background-color: grey;
+  padding: 10px;
+  padding-left: 20px;
+  border-top: 1px solid white;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+h3 {
+  color: rgb(220, 106, 94);
+  font-size: 26px;
+  font-weight: 600;
+}
+
+section,
+footer {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+footer {
+  background-color: grey;
+  color: white;
+  clear: both;
+}
+
+footer h3 {
+  color: white;
+}
+
+img {
+  width: 100%;
+}
+
+#logo {
+  width: 320px;
+}
+
+#wrapper{
+    background-color: rgb(250, 241, 234);
+}
+
+@media all and (min-width: 780px) {
+  li {
+    display: inline-block;
+    border: none;
+  }
+  ul {
+    background-color: grey;
+  }
+  #nieuws {
+    width: 40%;
+    float: left;
+  }
+  #instrumenten {
+    width: 60%;
+    float: right;
+  }
+}
+
+@media all and (min-width: 1050px) {
+  #nieuws {
+    width: 30%;
+    float: left;
+  }
+  #instrumenten {
+    width: 70%;
+    float: right;
+  }
+  article {
+    display: inline-block;
+    width: 48%;
+    margin-right: 20px;
+  }
+  article:nth-child(even) {
+    margin-right: 0px;
+  }
+  @media all and (min-width: 1115px) {
+    #wrapper{
+        width: 1115px;
+        margin: auto;
+    }
+}
