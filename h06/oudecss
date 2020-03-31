@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "baloo thambi 2";
+}
+
+div.container {
+  width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+section.main,
+section.eten,
+section.knoppen {
+  width: 36%;
+  float: left;
+  padding-top: 20px;
+}
+
+section.tekstveld {
+  width: 80%;
+  float: left;
+  padding: 5px;
+  padding-left: 5px;
+}
+
+section.main .lengte {
+  width: 200px;
+}
+
+section.main div {
+  padding: 5px;
+}
+
+section.main label.marge {
+  margin-right: 45px;
+}
+
+section.eten {
+  width: 25%;
+}
+
+section.eten label.eten {
+  padding-left: 30px;
+}
+
+section.eten label {
+  text-align: right;
+}
+
+section.knoppen {
+  width: 65%;
+}
+
+section.knoppen input.marge {
+  margin-left: 15px;
+}
+
+textarea {
+  float: right;
+  margin-right: 250px;
+  margin-top: 5px;
+}
+
+input {
+  float: right;
+}
+
+.rechts {
+  float: right;
+}

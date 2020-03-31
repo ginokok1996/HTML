@@ -1,0 +1,65 @@
+* {
+  margin: 4px;
+  align-self: center;
+}
+
+body {
+  margin: 0px;
+  padding: 30px;
+  font-family: "baloo thambi 2";
+  font-size: 18px;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 13% 22% 10% 30%;
+}
+
+h1 {
+  grid-column: 1/5;
+  font-size: 36px;
+}
+
+textarea {
+  grid-column: 2/5;
+  width: 290px;
+}
+
+.radio {
+  margin-left: 50px;
+}
+
+.dropdown {
+  width: 165px;
+}
+
+.eten {
+  display: flex;
+  grid-column: 4/5;
+}
+
+.tekstveld {
+  width: 223px;
+}
+
+.begin {
+  grid-column: 1/2;
+}
+
+.date {
+  height: 16px;
+}
+
+.opmerking {
+  padding-bottom: 148px;
+}
+
+.button {
+  display: flex;
+  grid-column: 4/5;
+}
+
+.button input.button {
+  display: block;
+  width: 85px;
+}
